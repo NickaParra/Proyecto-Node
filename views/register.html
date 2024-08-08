@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="/style.css">
+
+    <title>Registro</title>
+</head>
+<body>
+    <main>
+        <h1>Registro</h1>
+        <form id="register-form">
+            <label for="usuario">Digite su usuario</label>
+            <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
+            
+            <label for="email">Digite su email</label>
+            <input type="email" name="email" id="email" placeholder="email">
+            
+            <label for="password">Digite su contraseña</label>
+            <input type="password" name="password" id="password" placeholder="Ingrese Contraseña">
+            
+            <button type="submit">Registrarse</button>
+        </form>
+        <p>Si ya está registrado <a href="login">Iniciar sesión</a></p>
+    </main>
+</body>
+
+<script src="/register.js"></script>
+
+
+</html>
